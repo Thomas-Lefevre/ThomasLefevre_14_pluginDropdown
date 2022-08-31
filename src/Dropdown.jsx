@@ -40,7 +40,7 @@ function Dropdown({ list, setValue }) {
   return (
     <div className="dropDown" onClick={show_hide}>
       <div className="list" >
-        <div className='list_element first'>{selectedValue}</div>
+        <div className='firstElement'>{selectedValue}</div>
         {show ?
           (<ul>
             {data.map(data => (

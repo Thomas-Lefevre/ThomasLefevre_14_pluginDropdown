@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-npm install --save pluginDropdown
+npm i thomas_lefevre_plugin_dropdown
 ```
 
 ## Example

@@ -1,10 +1,14 @@
 {
-  "name": "dropdown",
-  "version": "1.0",
+  "name": "thomas_lefevre_plugin_dropdown",
+  "version": "1.0.0",
   "description": "simple react dropdown",
   "author": "Thomas-Lefevre",
   "license": "MIT",
-  "repository": "https://github.com/Thomas-Lefevre/ThomasLefevre_14_pluginDropdown",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomas-Lefevre/ThomasLefevre_14_pluginDropdown.git"
+  },
+  "main": "src/index.js",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -38,5 +42,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Thomas-Lefevre/ThomasLefevre_14_pluginDropdown/issues"
+  },
+  "homepage": "https://github.com/Thomas-Lefevre/ThomasLefevre_14_pluginDropdown#readme",
+  "devDependencies": {}
 }
