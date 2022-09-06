@@ -3,15 +3,15 @@
 ## Install
 
 ```bash
-npm i thomas_lefevre_plugin_dropdown
+npm i thomas_lefevre_plugin_dropdown --save
 ```
 
 ## Example
 
 ```jsx
 import React from 'react';
-import Dropdown from "react-ddown";
-import 'react-ddown/src/Dropdown.css';
+import Dropdown from "thomas_lefevre_plugin_dropdown";
+import 'thomas_lefevre_plugin_dropdown/src/Dropdown.css';
 
 function App() {
     return (

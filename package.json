@@ -1,6 +1,6 @@
 {
   "name": "thomas_lefevre_plugin_dropdown",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "simple react dropdown",
   "author": "Thomas-Lefevre",
   "license": "MIT",
@@ -8,7 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/Thomas-Lefevre/ThomasLefevre_14_pluginDropdown.git"
   },
-  "main": "src/index.js",
+  "main": "index.js",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
