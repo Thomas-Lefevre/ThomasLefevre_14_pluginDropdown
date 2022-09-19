@@ -3,6 +3,11 @@ import { useState, useEffect } from 'react';
 import arrowUp from "./icons/arrowUp.svg"
 import arrowDown from "./icons/arrowDown.svg"
 
+
+/**
+	* @param {array} list Element array
+	* @param {fonction} setValue Fonction
+	*/
 function Dropdown({ list, setValue }) {
 
   const [show, setShow] = useState(false)
