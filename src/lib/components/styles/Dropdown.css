@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dropDown {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    border: lightgray 2px solid;
+    border-radius: 5px;
+    padding: 5px 40px 5px 5px;
+    width: fit-content;
+    cursor: pointer;
+  }
+  
+  .list {
+    align-items: center;
+  }
+  
+  .listElement {
+    list-style: none;
+    padding: 5px;
+  }
+  
+  .listElement:hover{
+    background-color: #027ffe;
+    border-radius: 5px;
+  }
+  
+  .arrow{
+    margin-left: 20px;
+    position: absolute;
+    right: 5px;
+  }
